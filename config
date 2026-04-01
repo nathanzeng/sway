@@ -1,5 +1,7 @@
 # Read `man 5 sway` for a complete reference.
 
+gaps outer 10
+
 ### Variables
 #
 # Logo key. Use Mod1 for Alt.
@@ -86,7 +88,7 @@ output HDMI-A-1 mode 2560x1440@119.998Hz scale 2
     bindsym $mod+comma reload
 
     # Exit sway (logs you out of your Wayland session)
-    bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
+    bindsym $mod+q exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
 #
 # Moving around:
 #
