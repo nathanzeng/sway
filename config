@@ -203,7 +203,7 @@ bindsym $mod+r mode "resize"
 
 # Waybar
 bar { 
-     swaybar_command waybar -c ~/.config/sway/waybar/config.jsonc -s ~/.config/sway/waybar/style.css
+     swaybar_command waybar
 }
 
 # Include configs from 3 locations:
