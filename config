@@ -64,6 +64,12 @@ output HDMI-A-1 mode 2560x1440@119.998Hz scale 2
 # You can get the names of your inputs by running: swaymsg -t get_inputs
 # Read `man 5 sway-input` for more information about this section.
 
+# Key repeate and delay
+input * {
+    repeat_delay 250
+    repeat_rate 30
+}
+
 ### Key bindings
 #
 # Basics:
