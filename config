@@ -69,7 +69,7 @@ output HDMI-A-1 mode 2560x1440@119.998Hz scale 2
 # Basics:
 #
     # Start a terminal
-    bindsym $mod+t exec $term
+    bindsym $mod+Return exec $term
 
     # Kill focused window
     bindsym $alt+q kill
