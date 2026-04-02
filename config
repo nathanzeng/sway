@@ -210,7 +210,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # Waybar
-bar { 
+bar {
      swaybar_command waybar
 }
 
