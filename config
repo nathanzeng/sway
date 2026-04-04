@@ -25,6 +25,8 @@ set $rofi_cmd rofi \
 # TODO: add window with the next release of rofi-wayland
 set $menu $rofi_cmd -show combi -combi-modes drun#run -modes combi
 
+set $browser firefox
+
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
@@ -82,6 +84,9 @@ input * {
 #
     # Start a terminal
     bindsym $mod+Return exec $term
+
+    # Browser
+    bindsym $mod+b exec $browser
 
     # Kill focused window
     bindsym $alt+q kill
@@ -158,7 +163,7 @@ input * {
     # You can "split" the current object of your focus with
     # $mod+b or $mod+v, for horizontal and vertical splits
     # respectively.
-    bindsym $mod+b splith
+    # bindsym $mod+b splith
     bindsym $mod+v splitv
 
     # Switch the current container between different layout styles
@@ -173,7 +178,6 @@ input * {
     bindsym $mod+Shift+space floating toggle
 
     # Swap focus between the tiling area and the floating area
-	# TODO: am using this for my launcher
     # bindsym $mod+space focus mode_toggle
 
     # Move focus to the parent container
