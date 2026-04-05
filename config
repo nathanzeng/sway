@@ -4,6 +4,9 @@
 default_border none 
 default_floating_border none
 
+# Inner gap
+gaps inner 10
+
 # Font in the titlebar
 font pango: monospace 8
 
