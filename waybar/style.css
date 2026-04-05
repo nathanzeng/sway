@@ -9,7 +9,7 @@
 }
 
 #waybar {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #000000;
   border: none;
   box-shadow: none;
 }
@@ -88,12 +88,12 @@ button:hover {
 }
 
 #clock {
-    background-color: #1e1e2e;
+    background-color: rgba(0, 0, 0, 0);
     color: #cdd6f4;
 }
 
 #battery {
-    background-color: #1e1e2e;
+    background-color: rgba(0, 0, 0, 0);
     color: #6c7086;
     margin-right: 5px;
 }
@@ -145,12 +145,12 @@ label:focus {
 }
 
 #cpu {
-    background-color: #1e1e2e;
+    background-color: rgba(0, 0, 0, 0);
     color: #6c7086;
 }
 
 #memory {
-    background-color: #1e1e2e;
+    background-color: rgba(0, 0, 0, 0);
     color: #6c7086;
 }
 
@@ -171,7 +171,7 @@ label:focus {
 }
 
 #pulseaudio {
-    background-color: #1e1e2e;
+    background-color: rgba(0, 0, 0, 0);
     color: #6c7086;
     margin: 0 5px;
 }
@@ -205,7 +205,7 @@ label:focus {
 }
 
 #temperature {
-    background-color: #1e1e2e;
+    background-color: rgba(0, 0, 0, 0);
     color: #6c7086;
     margin-right: 5px;
 }
@@ -228,12 +228,12 @@ label:focus {
 }
 
 #idle_inhibitor {
-    background-color: #1e1e2e;
+    background-color: rgba(0, 0, 0, 0);
     color: #6c7086;
 }
 
 #idle_inhibitor.activated {
-    background-color: #1e1e2e;
+    background-color: rgba(0, 0, 0, 0);
     color: #6c7086;
 }
 
