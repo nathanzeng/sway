@@ -1,9 +1,5 @@
 # Read `man 5 sway` for a complete reference.
 
-# Gaps
-gaps outer 10
-gaps inner 10
-
 # No titlebars
 default_border none 
 default_floating_border none
