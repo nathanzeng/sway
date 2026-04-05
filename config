@@ -226,7 +226,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # Waybar
-exec waybar -c ~/.config/sway/waybar/config.jsonc
+exec waybar -c ~/.config/sway/waybar/config.jsonc -s ~/.config/sway/waybar/style.css
 
 # Include configs from 3 locations:
 #  - /usr/share/sway/config.d
