@@ -29,22 +29,23 @@
         "tray"
     ],
     // Modules configuration
-    // "sway/workspaces": {
-    //     "disable-scroll": true,
-    //     "all-outputs": true,
-    //     "warp-on-scroll": false,
-    //     "format": "{name}: {icon}",
-    //     "format-icons": {
-    //         "1": "",
-    //         "2": "",
-    //         "3": "",
-    //         "4": "",
-    //         "5": "",
-    //         "urgent": "",
-    //         "focused": "",
-    //         "default": ""
-    //     }
-    // },
+    "sway/workspaces": {
+        "disable-scroll": true,
+        // "all-outputs": true,
+        "warp-on-scroll": false,
+        "format": "{icon}",
+        "format-icons": {
+            "1": "",
+            "2": "2",
+            "3": "󰈹",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "urgent": "",
+            // "focused": "",
+            // "default": ""
+        }
+    },
     "keyboard-state": {
         "numlock": true,
         "capslock": true,
