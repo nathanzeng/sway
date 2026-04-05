@@ -1,6 +1,11 @@
 * {
     font-family: 'JetBrainsMono Nerd Font';
     font-size: 12px;
+    border: none;
+    border-radius: 0;
+    min-height: 0;
+    margin: 0;
+    padding: 0;
 }
 
 #waybar {
@@ -10,11 +15,6 @@
 }
 
 button {
-    /* Use box-shadow instead of border so the text isn't offset */
-    box-shadow: inset 0 -3px transparent;
-    /* Avoid rounded borders under each button name */
-    border: none;
-    border-radius: 0;
 }
 
 /* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
@@ -40,7 +40,6 @@ button:hover {
 
 #workspaces button.focused {
     background-color: #64727D;
-    box-shadow: inset 0 -3px #ffffff;
 }
 
 #workspaces button.urgent {
@@ -89,12 +88,14 @@ button:hover {
 }
 
 #clock {
-    background-color: #64727D;
+    background-color: #1e1e2e;
+    color: #cdd6f4;
 }
 
 #battery {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #1e1e2e;
+    color: #6c7086;
+    margin-right: 5px;
 }
 
 #battery.charging, #battery.plugged {
@@ -144,12 +145,13 @@ label:focus {
 }
 
 #cpu {
-    background-color: #2ecc71;
-    color: #000000;
+    background-color: #1e1e2e;
+    color: #6c7086;
 }
 
 #memory {
-    background-color: #9b59b6;
+    background-color: #1e1e2e;
+    color: #6c7086;
 }
 
 #disk {
@@ -169,8 +171,9 @@ label:focus {
 }
 
 #pulseaudio {
-    background-color: #f1c40f;
-    color: #000000;
+    background-color: #1e1e2e;
+    color: #6c7086;
+    margin: 0 5px;
 }
 
 #pulseaudio.muted {
@@ -202,7 +205,9 @@ label:focus {
 }
 
 #temperature {
-    background-color: #f0932b;
+    background-color: #1e1e2e;
+    color: #6c7086;
+    margin-right: 5px;
 }
 
 #temperature.critical {
@@ -223,12 +228,13 @@ label:focus {
 }
 
 #idle_inhibitor {
-    background-color: #2d3436;
+    background-color: #1e1e2e;
+    color: #6c7086;
 }
 
 #idle_inhibitor.activated {
-    background-color: #ecf0f1;
-    color: #2d3436;
+    background-color: #1e1e2e;
+    color: #6c7086;
 }
 
 #mpd {
