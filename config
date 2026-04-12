@@ -31,6 +31,7 @@ set $rofi_cmd rofi \
 set $menu $rofi_cmd -show combi -combi-modes drun#run -modes combi
 
 set $browser firefox
+set $rofimoji rofimoji
 
 ### Output configuration
 #
@@ -98,6 +99,9 @@ input * {
 
     # Start your launcher
     bindsym $mod+space exec $menu
+
+    # Emojis
+    bindsym $mod+period exec $rofimoji
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
